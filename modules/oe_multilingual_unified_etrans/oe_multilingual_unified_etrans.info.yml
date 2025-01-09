@@ -1,0 +1,9 @@
+name: 'OpenEuropa Unified Etrans'
+type: module
+description: 'Provides a unified user experience for translating pages using drupal translations or webtools etrans API.'
+core_version_requirement: ^10
+package: 'OpenEuropa'
+
+dependencies:
+  - oe_multilingual:oe_multilingual
+  - oe_webtools:oe_webtools

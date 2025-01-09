@@ -1,0 +1,13 @@
+block.settings.oe_multilingual_unified_etrans:
+  type: block_settings
+  label: 'OE Multilingual Unified eTrans block'
+  mapping:
+    delay:
+      type: integer
+      label: 'Delay'
+    exclude:
+      type: string
+      label: 'Exclude'
+    include:
+      type: string
+      label: 'Include'
